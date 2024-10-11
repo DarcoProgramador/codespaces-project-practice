@@ -49,8 +49,7 @@ const projectList = [
   },
   {
     title: "Github codespaces",
-    description:
-      "A tutorial on how to use Github codespaces to develop in the cloud",
+    description: "A tutorial on how to use Github codespaces to develop in the cloud",
     url: "https://docs.github.com/es/codespaces/getting-started/quickstart",
   },
 ];
@@ -63,7 +62,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
